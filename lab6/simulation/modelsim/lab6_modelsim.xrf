@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, /home/student1/mbhagat/coe608/lab6/reset_circuit.vhd
+source_file = 1, /home/student1/mbhagat/coe608/lab6/db/lab6.cbx.xml
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = reset_circuit
+instance = comp, \Enable_PD~output\, Enable_PD~output, reset_circuit, 1
+instance = comp, \Clr_PC~output\, Clr_PC~output, reset_circuit, 1
+instance = comp, \Reset~input\, Reset~input, reset_circuit, 1
+instance = comp, \Clk~input\, Clk~input, reset_circuit, 1

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student1/mbhagat/coe608/lab3/simulation/qsim
+valu
+Z1 IekI7XS4Bnj41H<gcnQ`3_1
+Z2 V:Y>al[:0e1T3g5YQ]`NUc0
+Z3 d/home/student1/mbhagat/coe608/lab3/simulation/qsim
+Z4 w1518015296
+Z5 8lab3.vo
+Z6 Flab3.vo
+L0 32
+Z7 OV;L;10.1e;51
+r1
+31
+Z8 !s90 -work|work|lab3.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 `_[K:;UB06B^TKFMcomF_0
+!s85 0
+Z11 !s108 1518015297.903104
+Z12 !s107 lab3.vo|
+!s101 -O0
+valu_vlg_check_tst
+!i10b 1
+Z13 !s100 Rg2NlL982G?@1ZHJ`^O<E3
+Z14 IgC@I2WOY^BRlQ^[fb1A6b2
+Z15 V?^VklCOoEA[:njKCde>ej0
+R3
+Z16 w1518015292
+Z17 8ALUWaveform.vwf.vt
+Z18 FALUWaveform.vwf.vt
+L0 62
+R7
+r1
+!s85 0
+31
+Z19 !s108 1518015298.081327
+Z20 !s107 ALUWaveform.vwf.vt|
+Z21 !s90 -work|work|ALUWaveform.vwf.vt|
+!s101 -O0
+R9
+valu_vlg_sample_tst
+!i10b 1
+Z22 !s100 KIB[^PHG=B?QHOz7LagRF0
+Z23 If@J]9?HcG=kTfoX_QVhz`2
+Z24 VD>9ZKXfmM9NdZ29<4YFei1
+R3
+R16
+R17
+R18
+L0 30
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+valu_vlg_vec_tst
+!i10b 1
+Z25 !s100 gPBL_[b5bK``BV9i`1Wd<1
+Z26 IV2BHIUO1E9:IA[1R]Jo=B3
+Z27 VKh<<g<fN<83>nOE>KA>;A3
+R3
+R16
+R17
+R18
+Z28 L0 768
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

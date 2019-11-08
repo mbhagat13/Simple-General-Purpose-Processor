@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student1/mbhagat/coe608/lab4b/simulation/qsim
+vdatapath
+Z1 !s100 Yz8o]2hkZi8oc`2MCo37<1
+Z2 InK0db43E<10Eb9RLjJ7`41
+Z3 Vj0ff`ZWJlBXg8k8HDP9Az0
+Z4 d/home/student1/mbhagat/coe608/lab4b/simulation/qsim
+Z5 w1521753525
+Z6 8lab4b.vo
+Z7 Flab4b.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|lab4b.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1521753527.195511
+Z12 !s107 lab4b.vo|
+!s101 -O0
+vdatapath_vlg_check_tst
+!i10b 1
+Z13 !s100 2CWA[2P<ZKU`^Q_O3_db>2
+Z14 IC@_ljDoKKD3K[h?z4ETW`0
+Z15 VjWSKm>AjQP?6[;:eZWXa23
+R4
+Z16 w1521753521
+Z17 8datapathWaveform.vwf.vt
+Z18 FdatapathWaveform.vwf.vt
+Z19 L0 105
+R8
+r1
+!s85 0
+31
+Z20 !s108 1521753527.486344
+Z21 !s107 datapathWaveform.vwf.vt|
+Z22 !s90 -work|work|datapathWaveform.vwf.vt|
+!s101 -O0
+R10
+vdatapath_vlg_sample_tst
+!i10b 1
+Z23 !s100 ioCdUIR4aFPJ4j<>?HHn02
+Z24 I:<3MA:5g2cdm2=[]anhcD1
+Z25 V]cH]f9hC:ziKV]7f;gT`Z0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+vdatapath_vlg_vec_tst
+!i10b 1
+Z26 !s100 ZiW[OSeHzCKXXL9k5:1<F1
+Z27 IRKEimKEAQRYMgHTJWcm^@0
+Z28 V^@Kb0LjGY<clOm@lcHMDA1
+R4
+R16
+R17
+R18
+Z29 L0 5051
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10

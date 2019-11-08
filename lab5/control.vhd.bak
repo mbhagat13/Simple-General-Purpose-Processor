@@ -1,0 +1,56 @@
+library ieee; 
+use ieee.std_logic_1164.ALL; 
+ENTITY control IS 
+PORT( 
+			clk, mclk  : IN STD_LOGIC; 
+			enable : IN STD_LOGIC; 
+			statusC, statusZ : IN STD_LOGIC; 
+			INST  : IN STD_LOGIC_VECTOR(31 DOWNTO 0); 
+			A_Mux, B_Mux      : OUT STD_LOGIC; 
+			IM_MUX1, REG_Mux : OUT STD_LOGIC; 
+			IM_MUX2, DATA_Mux : OUT STD_LOGIC_VECTOR(1 DOWNTO 0); 
+			ALU_op   : OUT STD_LOGIC_VECTOR(2 DOWNTO 0); 
+			inc_PC, ld_PC : OUT STD_LOGIC; 
+			clr_IR : OUT STD_LOGIC; 
+			ld_IR : OUT STD_LOGIC; 
+			clr_A, clr_B, clr_C, clr_Z : OUT STD_LOGIC; 
+ld_A, ld_B, ld_C, ld_Z 
+: OUT STD_LOGIC; 
+T 
+ : OUT STD_LOGIC_VECTOR(2 DOWNTO 0); 
+wen, en    
+ : OUT STD_LOGIC); 
+END control; 
+ARCHITECTURE description OF control IS 
+TYPE STATETYPE IS (state_0, state_1, state_2, etc...); 
+SIGNAL present_state: STATETYPE; 
+BEGIN 
+-------- OPERATION DECODER --------- 
+   PROCESS (present_state, INST, statusC, statusZ, enable) 
+   BEGIN 
+-------- YOU FILL IN WHAT GOES IN HERE (DON'T FORGET TO CHECK FOR ENABLE) 
+-------- OUTPUT ASSIGNMENTS 
+    END process; 
+-------- STATE MACHINE --------- 
+    PROCESS (clk, enable)begin 
+-------- YOU FILL IN WHAT GOES IN HERE   
+    END process; 
+-------- DATA MEMORY INSTRUCTIONS --------- 
+PROCESS (mclk, clk, INST) 
+BEGIN 
+IF(mclk'EVENT and mclk = '0') THEN 
+IF(present_state = state_1 AND clk = '0') THEN 
+--LDA and LDB Signals 
+--STA and STB Signals 
+--Default Case Signals 
+ELSIF(present_state = state_2 AND clk = '1') THEN 
+--LDA and LDB 
+--STA and STB 
+--Default Case 
+ELSIF(present_state = state_1) THEN 
+--or alternatively just an ELSE statement 
+--fill in 
+END IF; 
+END IF; 
+END process; 
+END description; 

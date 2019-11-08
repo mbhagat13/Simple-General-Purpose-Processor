@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab6">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_TEST_Sim|cpu1:main_processor|datapath:DP|data_mem:Data_Memory_Module|altsyncram:Memory_rtl_0" CBX_FILE_NAME="altsyncram_hie1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU_TEST_Sim|system_memory:main_memory|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_5ls3.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,24 @@
+LIBRARY ieee;  
+USE ieee.std_logic_1164.ALL;  
+USE ieee.std_logic_arith.ALL;  
+USE ieee.std_logic_unsigned.ALL; 
+ENTITY reset_circuit IS 
+		PORT ( 
+			Reset :  IN STD_LOGIC; 
+			Clk :   	IN STD_LOGIC;  
+			Enable_PD :   OUT STD_LOGIC;  
+			Clr_PC :     OUT STD_LOGIC );  
+END reset_circuit; 
+
+ARCHITECTURE description OF reset_circuit IS 
+Type STATETYPE IS (state_0, state_1, state_2,state_3);
+Signal present_state: STATETYPE;
+
+BEGIN 
+PROCESS(clk)
+	BEGIN
+	 IF(rising_edge(clk) AND Reset = '1') THEN
+	 END IF;
+END PROCESS;
+
+END description; 

@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student1/mbhagat/coe608/lab6/simulation/qsim
+vCPU_TEST_Sim
+Z1 IRoOOEaHdSAEz^C=:O09Zh2
+Z2 VD4Xfl_9czkNN5Jl]^TkD92
+Z3 d/home/student1/mbhagat/coe608/lab6/simulation/qsim
+Z4 w1522956867
+Z5 8lab6.vo
+Z6 Flab6.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|lab6.vo|
+Z9 o-work work -O0
+Z10 n@c@p@u_@t@e@s@t_@sim
+!i10b 1
+Z11 !s100 aH^_GlbFiB4QB3PnT[_443
+!s85 0
+Z12 !s108 1522956869.766952
+Z13 !s107 lab6.vo|
+!s101 -O0
+vCPU_TEST_Sim_vlg_check_tst
+!i10b 1
+!s100 CZ;<Tn140H6fK]oO:QkzN3
+ICFiWloHWFa:lT:@4MG55;0
+Z14 VAN8OL5PC]SYlnbFkPekba3
+R3
+Z15 w1522956864
+Z16 8CPU_TEST_SIM_Waveform.vwf.vt
+Z17 FCPU_TEST_SIM_Waveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z18 !s108 1522956870.152073
+Z19 !s107 CPU_TEST_SIM_Waveform.vwf.vt|
+Z20 !s90 -work|work|CPU_TEST_SIM_Waveform.vwf.vt|
+!s101 -O0
+R9
+Z21 n@c@p@u_@t@e@s@t_@sim_vlg_check_tst
+vCPU_TEST_Sim_vlg_sample_tst
+!i10b 1
+!s100 eUGRaa4DRmE=;9GVfb@800
+IGnnXPznDaI;LWQlDQY09Z0
+Z22 V8I[2ieW7H@BD=24IJ7VZ<3
+R3
+R15
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z23 n@c@p@u_@t@e@s@t_@sim_vlg_sample_tst
+vCPU_TEST_Sim_vlg_vec_tst
+!i10b 1
+!s100 J`ZcaJbZL[nCkP2nh[:2M3
+IMLSoRoVAe3On5kH[:3E9R3
+Z24 VjbJ[P:gO<7[a^MA>VFC3^0
+R3
+R15
+R16
+R17
+L0 3902
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z25 n@c@p@u_@t@e@s@t_@sim_vlg_vec_tst
+vreset_circuit
+Z26 !s100 j[dTbHP>Y8O4ebT1Z?GBI3
+Z27 IPgfNIO]J7_53haVaW`RE80
+Z28 VX6PUg_Pk=f7R=Q<O4cblS1
+R3
+Z29 w1522787648
+R5
+R6
+L0 32
+Z30 OV;L;10.1e;51
+r1
+31
+R8
+R9
+Z31 !s108 1522787650.433894
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vreset_circuit_vlg_check_tst
+Z32 !s100 _d2RJVb06F2N9TeBi91iE3
+Z33 IDM34YSQg7ME24nLGXCXR61
+Z34 VZb6@KVdelz<WBKjZPdQY21
+R3
+Z35 w1522787644
+Z36 8Reset_Waveform.vwf.vt
+Z37 FReset_Waveform.vwf.vt
+L0 60
+R30
+r1
+31
+Z38 !s108 1522787650.577489
+Z39 !s107 Reset_Waveform.vwf.vt|
+Z40 !s90 -work|work|Reset_Waveform.vwf.vt|
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vreset_circuit_vlg_sample_tst
+Z41 !s100 z[h]ReG3MFaDdBJZQSI:52
+Z42 IL9L6HkAQ=eGBecR4A[0IR0
+Z43 VchRe=FW_oUGW3cVWBH<T[2
+R3
+R35
+R36
+R37
+L0 30
+R30
+r1
+31
+R38
+R39
+R40
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vreset_circuit_vlg_vec_tst
+Z44 !s100 O8ESg0=KWSd>Y5;ana1`70
+Z45 ICc`JT:7PWATZLBH;_=`=d0
+Z46 VcKo;kHI`I@LOVUL?n3kh]1
+R3
+R35
+R36
+R37
+Z47 L0 182
+R30
+r1
+31
+R38
+R39
+R40
+R9
+!i10b 1
+!s85 0
+!s101 -O0

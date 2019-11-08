@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Mar 22 17:05:16 2018
+Quartus II 32-bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : lab4b
+Top-level Entity Name : datapath
+Family : Cyclone IV E
+Total logic elements : 515
+    Total combinational functions : 514
+    Dedicated logic registers : 193
+Total registers : 193
+Total pins : 326
+Total virtual pins : 0
+Total memory bits : 8,192
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
